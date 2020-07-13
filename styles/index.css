@@ -62,7 +62,7 @@ background: radial-gradient(circle, rgba(64,80,99,1) 13%, rgba(30,31,34,1) 77%);
   bottom: 0;
   z-index: 10;
   text-transform: uppercase;  
-  @apply text-white font-bold text-5xl italic text-center;
+  @apply text-white font-bold text-5xl italic text-center leading-none;
   text-shadow: 0.15ch 0.15ch #343434, 0.2ch 0.2ch #343434;
 }
 

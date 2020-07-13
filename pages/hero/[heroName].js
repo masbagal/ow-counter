@@ -36,7 +36,7 @@ function HeroDetail({ heroName }) {
             <div className='bodypic'>
               <img src={`/img/full/${heroName}.png`} />
             </div>
-            <h1 className='displayName'>{displayName}</h1>
+            <h1 className='displayName whitespace-normal md:whitespace-no-wrap'>{displayName}</h1>
           </div>
           <div className='heroBottomShadow' />
         </div>
