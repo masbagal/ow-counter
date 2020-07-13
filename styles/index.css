@@ -1,12 +1,109 @@
 @tailwind base;
 @tailwind components;
 
+@font-face {
+  font-family: 'Big Noodle';
+  src: url('/font/big_noodle_titling_oblique.ttf');
+}
+
+body {
+  @apply bg-gray-800 pb-24 text-white;
+  font-family: 'Big Noodle';
+}
+
+p {
+  font-family: sans-serif;
+  opacity: 0.8;
+}
+
+header {
+  @apply mt-12 mb-8 relative;
+}
+
+header .logo {
+  @apply absolute inset-0;
+  width: 6rem;
+  margin: -1rem auto 0 auto;
+}
+
 .btn-blue {
   @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
 }
 
+h1.title {
+  @apply text-white px-4;
+}
+
+.heroWrapper {
+  @apply relative;
+  background: rgb(64,80,99);
+background: radial-gradient(circle, rgba(64,80,99,1) 13%, rgba(30,31,34,1) 77%);
+}
+
 .hero {
-  @apply py-20;
+  @apply w-full relative overflow-hidden flex justify-center pt-12 relative;
+  /* background-color: #f99e1a; */
+  background-image: url('/img/logo.png'), url('/img/particle.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 75%;
+  height: 50vh
+}
+
+.hero .bodypic img {
+  min-width: 100%;
+}
+
+.hero .displayName {
+  letter-spacing: 0.1ch;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  text-transform: uppercase;  
+  @apply text-white font-bold text-5xl italic text-center;
+  text-shadow: 0.15ch 0.15ch #343434, 0.2ch 0.2ch #343434;
+}
+
+.heroBottomShadow {
+  background: rgb(45,55,72);
+  background: linear-gradient(0deg, rgba(45,55,72,1) 35%, rgba(47,50,64,0) 77%);
+  height: 6rem;
+  position: absolute;
+  width: 100%;
+  bottom: -0.1rem;
+  padding-bottom: -0.1rem;
+  left: 0;
+}
+
+.orangeLine {
+  @apply w-24 h-1 mx-auto mb-4;
+  background: #f99e1a
+}
+
+.orangeLine.sm {
+  @apply w-12 mb-1;
+}
+
+@media (min-width: 768px) {
+  .hero {
+      background-size: 10%;
+      background-position: 75% 50%;
+  }
+
+  .hero .displayName {
+    font-size: 5rem;
+    left: 20%;
+    right: auto;
+    left: 0;
+    bottom: 0;
+  }
+
+  .orangeLine {
+    @apply mx-0 w-48;
+
+  }
 }
 
 .title {
@@ -14,5 +111,61 @@
   color: #333;
   line-height: 1.15;
 }
+
+.photolink {
+  @apply my-4 mx-2;
+  transition: transform linear .05s;
+  transform-origin: center;
+}
+
+.photolink:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0px 0px 10px rgb(255, 208, 0))  drop-shadow(0px -1px 5px rgb(255, 255, 255)) drop-shadow(#ff8000 0 -10px 15px);
+}
+
+.photolink .name {
+  @apply text-white text-xl;
+  margin-top: -1rem;
+  position: absolute;
+  text-shadow: 0.2ch 0.2ch #343434, 0.1ch 0.2ch #343434, 0.2ch 0.1ch #343434;
+}
+
+.photo {
+  @apply bg-gray-700 p-0 overflow-hidden border-gray-400 border-b-4 border-t-4;
+  border-radius: 20px;
+  background: radial-gradient(circle, rgba(64,80,99,1) 13%, rgba(50,41,44,1) 77%);
+  clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+}
+
+
+.photo img {
+  height: 100%;
+  min-width: 100%;
+}
+
+.backLink {
+  position: absolute;
+  top: 0.5rem;
+  left: 2rem;
+}
+
+.backLink a {
+  @apply text-white text-5xl
+}
+
+h1, h2, h3 {
+  letter-spacing: 0.1ch;
+  text-shadow: 0.15ch 0.15ch #343434, 0.2ch 0.2ch #343434;
+  @apply font-bold italic;
+}
+
+#heroDetail h2 {
+  @apply text-white text-3xl mt-12 mb-4;
+}
+
+#heroDetail h3 {
+  @apply text-2xl mt-12 mb-1;
+}
+
 
 @tailwind utilities;

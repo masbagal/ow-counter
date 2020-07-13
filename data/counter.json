@@ -1,0 +1,668 @@
+[
+  {
+    "name": "ANA",
+    "map": {
+      "veryweak": [],
+      "weak": [
+        "DVA",
+        "SIGMA",
+        "SOMBRA",
+        "WINSTON"
+      ],
+      "good": [
+        "ASHE",
+        "BASTION",
+        "LUCIO",
+        "MOIRA",
+        "PHARAH",
+        "REAPER",
+        "TORBJORN",
+        "WRECKING-BALL",
+        "ZENYATTA"
+      ],
+      "verygood": []
+    }
+  },
+  {
+    "name": "ASHE",
+    "map": {
+      "veryweak": [],
+      "weak": [
+        "ANA",
+        "DVA",
+        "ORISA",
+        "WIDOWMAKER",
+        "WINSTON",
+        "WRECKING-BALL"
+      ],
+      "good": [
+        "BRIGITTE",
+        "DOOMFIST",
+        "JUNKRAT",
+        "MEI",
+        "MERCY",
+        "REAPER",
+        "SOLDIER-76",
+        "SYMMETRA"
+      ],
+      "verygood": [
+        "PHARAH"
+      ]
+    }
+  },
+  {
+    "name": "BAPTISTE",
+    "map": {
+      "veryweak": [],
+      "weak": ["ROADHOG", "ORISA"],
+      "good": [
+        "BAPTISTE",
+        "DVA"
+      ],
+      "verygood": []
+    }
+  },
+  {
+    "name": "BASTION",
+    "map": {
+      "veryweak": [],
+      "weak": [
+        "ANA",
+        "DVA",
+        "GENJI",
+        "HANZO",
+        "JUNKRAT",
+        "ROADHOG",
+        "SOLDIER-76",
+        "TRACER",
+        "WIDOWMAKER"
+      ],
+      "good": [
+        "ZARYA"
+      ],
+      "verygood": [
+        "REINHARDT",
+        "WINSTON"
+      ]
+    }
+  },
+  {
+    "name": "BRIGITTE",
+    "map": {
+      "veryweak": [
+        "PHARAH"
+      ],
+      "weak": [
+        "ASHE",
+        "JUNKRAT",
+        "REAPER",
+        "SOMBRA"
+      ],
+      "good": [
+        "DVA",
+        "GENJI",
+        "REINHARDT",
+        "TRACER"
+      ],
+      "verygood": [
+        "WRECKING-BALL"
+      ]
+    }
+  },
+  {
+    "name": "DVA",
+    "map": {
+      "veryweak": [
+        "ZARYA"
+      ],
+      "weak": [
+        "BRIGITTE",
+        "DOOMFIST",
+        "JUNKRAT",
+        "MEI",
+        "REAPER",
+        "SOMBRA"
+      ],
+      "good": [
+        "ANA",
+        "ASHE",
+        "BASTION",
+        "MCCREE",
+        "MOIRA",
+        "PHARAH"
+      ],
+      "verygood": [
+        "HANZO",
+        "MERCY",
+        "WIDOWMAKER"
+      ]
+    }
+  },
+  {
+    "name": "DOOMFIST",
+    "map": {
+      "veryweak": [
+        "PHARAH",
+        "SOMBRA"
+      ],
+      "weak": [
+        "ASHE",
+        "MCCREE",
+        "ORISA",
+        "SOLDIER-76"
+      ],
+      "good": [
+        "DVA",
+        "GENJI",
+        "REINHARDT",
+        "SIGMA"
+      ],
+      "verygood": []
+    }
+  },
+  {
+    "name": "GENJI",
+    "map": {
+      "veryweak": [
+        "WINSTON",
+        "ZARYA"
+      ],
+      "weak": [
+        "BRIGITTE",
+        "DOOMFIST",
+        "PHARAH"
+      ],
+      "good": [
+        "BASTION",
+        "ORISA"
+      ],
+      "verygood": [
+        "HANZO",
+        "MERCY",
+        "WIDOWMAKER"
+      ]
+    }
+  },
+  {
+    "name": "HANZO",
+    "map": {
+      "veryweak": [
+        "DVA",
+        "GENJI",
+        "TRACER"
+      ],
+      "weak": [
+        "ASHE",
+        "WIDOWMAKER"
+      ],
+      "good": [
+        "BASTION",
+        "ORISA",
+        "SOMBRA"
+      ],
+      "verygood": [
+        "TORBJORN"
+      ]
+    }
+  },
+  {
+    "name": "JUNKRAT",
+    "map": {
+      "veryweak": [
+        "PHARAH",
+        "WIDOWMAKER"
+      ],
+      "weak": [
+        "ZARYA"
+      ],
+      "good": [
+        "BASTION",
+        "BRIGITTE",
+        "DVA",
+        "REAPER",
+        "SOMBRA",
+        "TRACER"
+      ],
+      "verygood": [
+        "REINHARDT",
+        "TORBJORN"
+      ]
+    }
+  },
+  {
+    "name": "LUCIO",
+    "map": {
+      "veryweak": [
+        "MCCREE"
+      ],
+      "weak": [
+        "ANA",
+        "ROADHOG",
+        "SOMBRA"
+      ],
+      "good": [
+        "MEI",
+        "SIGMA"
+      ],
+      "verygood": []
+    }
+  },
+  {
+    "name": "MCCREE",
+    "map": {
+      "veryweak": [],
+      "weak": [
+        "DVA",
+        "MEI",
+        "ROADHOG",
+        "WIDOWMAKER",
+        "WINSTON"
+      ],
+      "good": [
+        "DOOMFIST",
+        "MERCY",
+        "SOMBRA",
+        "SYMMETRA"
+      ],
+      "verygood": [
+        "LUCIO",
+        "PHARAH",
+        "TRACER"
+      ]
+    }
+  },
+  {
+    "name": "MEI",
+    "map": {
+      "veryweak": [],
+      "weak": [
+        "ASHE",
+        "LUCIO",
+        "PHARAH",
+        "WIDOWMAKER",
+        "ZARYA"
+      ],
+      "good": [
+        "DVA",
+        "MCCREE",
+        "WRECKING-BALL"
+      ],
+      "verygood": [
+        "REINHARDT",
+        "ROADHOG"
+      ]
+    }
+  },
+  {
+    "name": "MERCY",
+    "map": {
+      "veryweak": [
+        "DVA",
+        "GENJI"
+      ],
+      "weak": [
+        "ASHE",
+        "MCCREE"
+      ],
+      "good": [],
+      "verygood": []
+    }
+  },
+  {
+    "name": "MOIRA",
+    "map": {
+      "veryweak": [],
+      "weak": [
+        "ANA",
+        "DVA"
+      ],
+      "good": [
+        "ORISA",
+        "REINHARDT"
+      ],
+      "verygood": []
+    }
+  },
+  {
+    "name": "ORISA",
+    "map": {
+      "veryweak": [],
+      "weak": [
+        "GENJI",
+        "HANZO",
+        "MOIRA",
+        "REAPER"
+      ],
+      "good": [
+        "ASHE",
+        "DOOMFIST",
+        "TORBJORN",
+        "WIDOWMAKER"
+      ],
+      "verygood": []
+    }
+  },
+  {
+    "name": "PHARAH",
+    "map": {
+      "veryweak": [
+        "MCCREE",
+        "WIDOWMAKER"
+      ],
+      "weak": [
+        "ANA",
+        "DVA",
+        "SOLDIER-76"
+      ],
+      "good": [
+        "GENJI",
+        "MEI",
+        "TRACER"
+      ],
+      "verygood": [
+        "BRIGITTE",
+        "DOOMFIST",
+        "JUNKRAT",
+        "REAPER",
+        "REINHARDT",
+        "SYMMETRA",
+        "ZARYA"
+      ]
+    }
+  },
+  {
+    "name": "REAPER",
+    "map": {
+      "veryweak": [
+        "PHARAH"
+      ],
+      "weak": [
+        "ANA",
+        "JUNKRAT"
+      ],
+      "good": [
+        "DVA",
+        "ORISA",
+        "SOMBRA",
+        "WRECKING-BALL",
+        "ZARYA"
+      ],
+      "verygood": [
+        "REINHARDT",
+        "ROADHOG",
+        "WINSTON",
+        "ZENYATTA"
+      ]
+    }
+  },
+  {
+    "name": "REINHARDT",
+    "map": {
+      "veryweak": [
+        "BASTION",
+        "JUNKRAT",
+        "MEI",
+        "PHARAH",
+        "REAPER"
+      ],
+      "weak": [
+        "BRIGITTE",
+        "DOOMFIST",
+        "ORISA",
+        "SOMBRA"
+      ],
+      "good": [
+        "SOLDIER-76",
+        "WIDOWMAKER"
+      ],
+      "verygood": []
+    }
+  },
+  {
+    "name": "ROADHOG",
+    "map": {
+      "veryweak": [
+        "MEI",
+        "REAPER"
+      ],
+      "weak": [
+        "SIGMA",
+        "ZARYA"
+      ],
+      "good": [
+        "BASTION",
+        "LUCIO",
+        "MCCREE",
+        "SOLDIER-76",
+        "SOMBRA",
+        "WIDOWMAKER",
+        "WRECKING-BALL"
+      ],
+      "verygood": [
+        "WINSTON"
+      ]
+    }
+  },
+  {
+    "name": "SIGMA",
+    "map": {
+      "veryweak": [],
+      "weak": [
+        "DOOMFIST",
+        "LUCIO"
+      ],
+      "good": [
+        "ANA",
+        "ROADHOG"
+      ],
+      "verygood": []
+    }
+  },
+  {
+    "name": "SOLDIER-76",
+    "map": {
+      "veryweak": [],
+      "weak": [
+        "REINHARDT"
+      ],
+      "good": [
+        "BASTION",
+        "DOOMFIST",
+        "PHARAH"
+      ],
+      "verygood": [
+        "TORBJORN"
+      ]
+    }
+  },
+  {
+    "name": "SOMBRA",
+    "map": {
+      "veryweak": [],
+      "weak": [
+        "HANZO",
+        "JUNKRAT",
+        "MCCREE",
+        "REAPER",
+        "ROADHOG"
+      ],
+      "good": [
+        "ANA",
+        "BRIGITTE",
+        "DVA",
+        "LUCIO",
+        "REINHARDT",
+        "SYMMETRA",
+        "ZENYATTA"
+      ],
+      "verygood": [
+        "DOOMFIST",
+        "TRACER",
+        "WRECKING-BALL"
+      ]
+    }
+  },
+  {
+    "name": "SYMMETRA",
+    "map": {
+      "veryweak": [
+        "PHARAH",
+        "WINSTON"
+      ],
+      "weak": [
+        "MCCREE",
+        "SOMBRA"
+      ],
+      "good": [],
+      "verygood": []
+    }
+  },
+  {
+    "name": "TORBJORN",
+    "map": {
+      "veryweak": [
+        "HANZO",
+        "JUNKRAT",
+        "SOLDIER-76",
+        "WIDOWMAKER",
+        "ZARYA"
+      ],
+      "weak": [
+        "ANA",
+        "ORISA"
+      ],
+      "good": [
+        "TRACER"
+      ],
+      "verygood": []
+    }
+  },
+  {
+    "name": "TRACER",
+    "map": {
+      "veryweak": [
+        "MCCREE",
+        "SOMBRA"
+      ],
+      "weak": [
+        "BRIGITTE",
+        "JUNKRAT",
+        "PHARAH",
+        "TORBJORN"
+      ],
+      "good": [
+        "BASTION"
+      ],
+      "verygood": [
+        "HANZO",
+        "ZENYATTA"
+      ]
+    }
+  },
+  {
+    "name": "WIDOWMAKER",
+    "map": {
+      "veryweak": [
+        "DVA",
+        "GENJI",
+        "WINSTON"
+      ],
+      "weak": [
+        "ORISA",
+        "REINHARDT",
+        "WRECKING-BALL"
+      ],
+      "good": [
+        "BASTION",
+        "HANZO",
+        "MCCREE",
+        "MEI"
+      ],
+      "verygood": [
+        "JUNKRAT",
+        "PHARAH",
+        "TORBJORN"
+      ]
+    }
+  },
+  {
+    "name": "WINSTON",
+    "map": {
+      "veryweak": [
+        "BASTION",
+        "REAPER",
+        "ROADHOG"
+      ],
+      "weak": [],
+      "good": [
+        "ANA",
+        "MCCREE"
+      ],
+      "verygood": [
+        "GENJI",
+        "SYMMETRA",
+        "WIDOWMAKER",
+        "ZENYATTA"
+      ]
+    }
+  },
+  {
+    "name": "WRECKING-BALL",
+    "map": {
+      "veryweak": [
+        "BRIGITTE",
+        "SOMBRA"
+      ],
+      "weak": [
+        "ANA",
+        "MEI",
+        "REAPER",
+        "ROADHOG"
+      ],
+      "good": [
+        "WIDOWMAKER"
+      ],
+      "verygood": []
+    }
+  },
+  {
+    "name": "ZARYA",
+    "map": {
+      "veryweak": [
+        "PHARAH"
+      ],
+      "weak": [
+        "BASTION",
+        "REAPER",
+        "ZENYATTA"
+      ],
+      "good": [
+        "JUNKRAT",
+        "MEI",
+        "ROADHOG"
+      ],
+      "verygood": [
+        "DVA",
+        "GENJI",
+        "TORBJORN"
+      ]
+    }
+  },
+  {
+    "name": "ZENYATTA",
+    "map": {
+      "veryweak": [
+        "REAPER",
+        "TRACER"
+      ],
+      "weak": [
+        "ANA",
+        "SOMBRA"
+      ],
+      "good": [
+        "ZARYA"
+      ],
+      "verygood": []
+    }
+  }
+]

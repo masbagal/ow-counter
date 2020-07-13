@@ -1,4 +1,7 @@
+
 # Tailwind CSS example
+
+Data scraped from https://www.heropicker.com/overwatch-counters/
 
 This is an example of using [Tailwind CSS](https://tailwindcss.com) in a Next.js project.
 
