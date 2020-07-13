@@ -1,18 +1,5 @@
 import CharSelect from "../components/characterSelect";
 
-function SearchBox() {
-  return (
-    <div className="relative mx-auto text-center mb-4">
-      <input
-        type="search"
-        className="bg-purple-white shadow rounded border-0 p-3"
-        placeholder="Search by name..."
-      />
-      <div className="absolute pin-r pin-t mt-3 mr-4 text-purple-lighter" />
-    </div>
-  );
-}
-
 function IndexPage() {
   return (
     <div>
